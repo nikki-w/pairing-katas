@@ -5,6 +5,7 @@ def nc_max(list_of_numbers):
     """Function that returns the maximum value in a list of numbers."""
     if list_of_numbers == []:
         return 0
+    return max(list_of_numbers)
 
 def nc_min(list_of_numbers):
     """Function that returns the minimum value in a list of numbers."""
