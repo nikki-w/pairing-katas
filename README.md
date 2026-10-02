@@ -1,3 +1,3 @@
-# Pairing-Katas Northcoder's Exercises
+# Pairing-Katas Northcoder Exercises
 
-Pairing Katas from the fundamentals week of the Northcoder's Bootcamp.
+Pairing Katas from the fundamentals week of the Northcoder Bootcamp.
