@@ -4,5 +4,6 @@
 def sum_args(*args):
     """Function that accepts any number of arguments 
     and adds them together."""
-    if not args:
-        return 0
+    if args:
+        return sum(args)
+    return 0
