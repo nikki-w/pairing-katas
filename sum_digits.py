@@ -3,7 +3,7 @@
 
 def sum_digits(number):
     """Function that takes a number and returns the total of it's digits"""
-    cleaned_number = str(number).replace('.', '')
+    cleaned_number = str(abs(number)).replace('.', '')
     return sum(int(digit) for digit in cleaned_number)
             
 if __name__ == "__main__":
