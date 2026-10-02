@@ -3,4 +3,7 @@
 
 def sum_digits(number):
     """Function that takes a number and returns the total of it's digits"""
-    return 1
+    return sum(int(digit) for digit in str(number))
+            
+if __name__ == "__main__":
+    pass
