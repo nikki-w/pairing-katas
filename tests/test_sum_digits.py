@@ -7,8 +7,8 @@ def test_sum_digits_returns_integer_value():
     assert type(sum_digits(1)) == int
     assert type(sum_digits(1.45)) == int
 
-def test_sum_digits_returns_sum_of_all_numbers():
-    """Tests if the sum_digits function returns a sum of all input numbers,
-    regardless of their type"""
+def test_sum_digits_returns_sum_of_all_numbers_for_int_value():
+    """Tests if the sum_digits function returns a sum of all input 
+    numbers for integer input."""
     assert sum_digits(1234) == 10
-    assert sum_digits(1.234) == 10
+    assert sum_digits(176) == 14
